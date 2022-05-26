@@ -88,6 +88,7 @@ class ArrayFunctions {
    */
   square(arr) {
     // hint: use .map
-    return ;
+    let squared = arr.map(x => x * x);
+    return squared;
   }
 }
