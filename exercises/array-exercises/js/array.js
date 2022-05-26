@@ -42,7 +42,15 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
-    return ;
+    var newArr = [];
+    var temp = 0;
+    for(let i=0; i<arr.length; i++){
+      if (arr[i] != item){
+        newArr[temp] = arr[i];
+        temp++;
+      }
+    }
+    return newArr;
   }
 
   /**
