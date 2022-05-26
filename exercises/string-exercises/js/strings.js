@@ -26,7 +26,8 @@ class StringFunctions {
      * @example
      * words('hello world') // ['hello', 'world']
      */
-    split(input) { 
-      return [input];
+    split(input) {
+      input = input.split(' ');
+      return input;
     }
 }
