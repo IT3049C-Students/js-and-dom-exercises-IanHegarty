@@ -25,7 +25,11 @@ class ArrayFunctions {
    */
   sum(arr) {
     // Hint: use the reduce method
-    return ;
+    var total = 0;
+    for(var i = 0; i < arr.length; i++){
+      total += arr[i];
+    }
+    return total;
   }
 
   /**
