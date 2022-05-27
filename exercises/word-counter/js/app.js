@@ -8,7 +8,7 @@ const stats = document.querySelector('#stat');
 // 🤖: You will need to utilize the split method to get the words count.
 textArea.addEventListener('input', () => {
 	let charLength = (textArea.value).length;
-	let wordCount = (textArea.value).split(' ').length - 1;
+	let wordCount = (textArea.value).split(' ').length;
 	stats.innerHTML = "You've written " + wordCount + " words and " + charLength + " characters.";
 });
 
